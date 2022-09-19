@@ -1,0 +1,30 @@
+@import url(styles/menu-hamburger.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+}
+
+.cabecalho__container {
+    display: flex;
+    justify-content: center;
+}
+.cabecalho__container--menu {
+    gap: 30px;
+}
+
+.container__imagem--logo {
+    width: 40px;
+}
+

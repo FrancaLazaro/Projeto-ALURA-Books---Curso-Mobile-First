@@ -1,0 +1,52 @@
+.menu-hamburger {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 24px;
+    width: 36px;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color:#002F52;
+    transition: 0.5s ease-in-out;
+}
+
+label span:nth-child(1){ 
+    top: 0;
+}
+label span:nth-child(2){ 
+    top: 10px;
+}
+label span:nth-child(3){ 
+    top: 20px;
+}
+
+#checkbox-menu:checked + label span:nth-child(1) {
+    transform: rotate(-405deg);
+    top: 8px;
+}
+#checkbox-menu:checked + label span:nth-child(2) {
+    transform: rotate(360deg);
+    top: 24px;
+}
+#checkbox-menu:checked + label span:nth-child(3) {
+    transform: rotate(-315deg);
+    top: 8px;
+}
