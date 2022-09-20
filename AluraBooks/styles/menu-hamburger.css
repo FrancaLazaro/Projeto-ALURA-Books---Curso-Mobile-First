@@ -1,4 +1,4 @@
-.menu-hamburger {
+.container__menu--hamburger {
     height: 100%;
     display: flex;
     align-items: center;
@@ -6,7 +6,7 @@
     
 }
 
-#checkbox-menu {
+#checkbox--menu {
     position: absolute;
     opacity: 0;
 }
@@ -26,6 +26,7 @@ label span {
     width: 100%;
     background-color:#002F52;
     transition: 0.5s ease-in-out;
+    border-radius: 12px;
 }
 
 label span:nth-child(1){ 
@@ -38,15 +39,15 @@ label span:nth-child(3){
     top: 20px;
 }
 
-#checkbox-menu:checked + label span:nth-child(1) {
+#checkbox--menu:checked + label span:nth-child(1) {
     transform: rotate(-405deg);
     top: 8px;
 }
-#checkbox-menu:checked + label span:nth-child(2) {
+#checkbox--menu:checked + label span:nth-child(2) {
     transform: rotate(360deg);
-    top: 24px;
+    top: 25px;
 }
-#checkbox-menu:checked + label span:nth-child(3) {
+#checkbox--menu:checked + label span:nth-child(3) {
     transform: rotate(-315deg);
     top: 8px;
 }
