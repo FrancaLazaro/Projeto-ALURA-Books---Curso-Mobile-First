@@ -1,9 +1,8 @@
 .container__menu--hamburger {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 28px 22px;
 }
 
 #checkbox--menu {
@@ -22,11 +21,11 @@ label {
 label span {
     position: absolute;
     display: block;
-    height: 4px;
+    height: 5px;
     width: 100%;
+    border-radius: 12px;
     background-color:#002F52;
     transition: 0.5s ease-in-out;
-    border-radius: 12px;
 }
 
 label span:nth-child(1){ 

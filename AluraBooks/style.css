@@ -1,7 +1,10 @@
 @import url(styles/menu-hamburger.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     --cor-de-fundo: #EBECEE;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -12,7 +15,6 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
     background-color: #FFFFFF;
     position: relative;
 }
@@ -22,7 +24,7 @@ body {
     justify-content: center;
 }
 .cabecalho__container--menu {
-    gap: 30px;
+    gap: 15px;
 }
 
 .lista-menu {
@@ -33,16 +35,28 @@ body {
 }
 
 .lista-menu {
-    padding: 24px 145px 16px 24px;
+    width: 60vw;
     background-color: white;
 }
 
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .lista-menu__titulo {
-    padding-bottom: 32px;
+    font-weight: 700;
+    color: #EB9B00;
 }
 
 .lista-menu__item {
-    padding-bottom: 32px;
+    font-weight: 500;
+    background: var(--azul-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
 }
 
 #checkbox--menu:checked ~ .lista-menu{
@@ -52,5 +66,12 @@ body {
 
 .cabecalho__container--imagem {
     width: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    gap: 10px;
 }
 
