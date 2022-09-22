@@ -9,7 +9,6 @@
 
 body {
     background-color: var(--cor-de-fundo);
-
 }
 
 .cabecalho {
@@ -56,12 +55,12 @@ body {
     background: var(--azul-gradiente);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-transform: uppercase;
 }
 
 #checkbox--menu:checked ~ .lista-menu{
     display: block;
-    
 }
 
 .cabecalho__container--imagem {
