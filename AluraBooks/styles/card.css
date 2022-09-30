@@ -14,13 +14,18 @@
     gap: 10px;
 }
 
-.card-container__titulo {
+
+.card-container__titulo, .card-container__estrela {
     grid-column: 1;
     grid-row: 1;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: var(--amarelo-destaque);
+}
+
+.card-container__estrela {
+    padding-bottom: 0.5em;
 }
 
 .card-container__destaque {
