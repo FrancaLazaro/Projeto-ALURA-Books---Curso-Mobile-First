@@ -38,12 +38,12 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-}
-
-.lista-menu {
     width: 60vw;
     background-color: white;
+    z-index: 2;
 }
+
+
 
 .lista-menu__titulo, .lista-menu__item{
     padding: 1em;
