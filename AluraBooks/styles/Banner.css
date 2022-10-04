@@ -39,26 +39,3 @@
     background: url("img/Lupa.svg") no-repeat;
     background-position: 3em;
 }
-
-.banner-bottom {
-    display: grid;
-    
-    text-align: center;
-    padding: 32px 0;
-}
-
-.banner-bottom__titulo {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    padding-bottom: 1em;
-}
-
-.banner-bottom__topico-visitado {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    padding: 1em;
-    margin: 1em;
-    background-color: var(--amarelo-destaque);
-}

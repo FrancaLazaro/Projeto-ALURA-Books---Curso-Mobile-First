@@ -1,0 +1,28 @@
+.banner-bottom {
+    background: var(--azul-gradiente);
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.banner-bottom__titulo {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+.lista__topico {
+    margin: 1.3em 0.3em;
+    display: inline-block;
+}
+
+.banner-bottom__topico-visitado {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 1em 1.5em;
+    background-color: var(--amarelo-destaque);
+    color: white;
+}
