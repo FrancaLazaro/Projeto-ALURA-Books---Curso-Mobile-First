@@ -19,7 +19,8 @@
 }
 
 .contato__email {
-    padding: 0.5em;
+    color: var(--azul-destaque);
+    padding: 1em;
     border: 1px solid var(--azul-destaque);
     border-radius: 24px;
     width: 90%;
