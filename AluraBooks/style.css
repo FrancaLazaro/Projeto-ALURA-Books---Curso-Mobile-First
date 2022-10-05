@@ -1,3 +1,4 @@
+@import url(styles/cabecalho.css);
 @import url(styles/menu-hamburger.css);
 @import url(styles/banner.css);
 @import url(styles/carrossel.css);
@@ -6,6 +7,7 @@
 @import url(styles/contato.css);
 @import url(styles/rodape.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -16,65 +18,4 @@
 
 body {
     background-color: var(--cor-de-fundo);
-}
-
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    position: relative;
-}
-
-.cabecalho__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 32px;
-    gap: 10px;
-}
-
-.cabecalho__container--menu {
-    gap: 15px;
-}
-
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 60vw;
-    background-color: white;
-    z-index: 2;
-}
-
-.lista-menu__titulo, .lista-menu__item{
-    padding: 1em;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.lista-menu__titulo {
-    font-weight: 700;
-    color: var(--amarelo-destaque);
-}
-
-.lista-menu__item {
-    font-weight: 500;
-    background: var(--azul-gradiente);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
-
-#checkbox--menu:checked ~ .lista-menu {
-    display: block;
-}
-
-.cabecalho__container--imagem {
-    width: 40px;
-}
-
-.rodape {
-    background-color: white;
 }
