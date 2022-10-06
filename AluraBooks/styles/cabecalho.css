@@ -3,18 +3,24 @@
     justify-content: space-between;
     background-color: #FFFFFF;
     position: relative;
+    align-items: center;
 }
 
 .cabecalho__container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 32px;
-    gap: 10px;
+    gap: 1em;
 }
 
-.cabecalho__container--menu {
-    gap: 15px;
+.cabecalho__logo {
+    width: 40px;
+}
+
+.titulo {
+    display: none;
+}
+
+.cabecalho__container--icone {
+    padding: 0 1em;
 }
 
 .lista-categorias {
@@ -51,10 +57,6 @@
     display: block;
 }
 
-.cabecalho__container--imagem {
-    width: 40px;
-}
-
 .menu {
     display: none;
 }
@@ -64,13 +66,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho {
+        justify-content: space-evenly;
+        padding: 0.5em 0;
+    }
+
     .cabecalho__container {
-        padding: 1em  4em;
-        gap: 1em;
+        align-items: center;
     }
 
     .cabecalho__container--icone {
         gap: 2em;
+        padding: 0;
     }
 
     .container__imagem--favoritos {
@@ -84,7 +91,6 @@
         font-weight: 500;
         font-size: 30px;
         line-height: 30px;
-        padding-right: 1em;
     }
 
     .titulo__negrito {
@@ -94,16 +100,9 @@
         line-height: 30px;
     }
 
-    .menu {
-        display: flex;
-    }
-
-    .menu__lista {
+    .opções {
         display: flex;
         gap: 3em;
     }
 
-    .lista__item {
-        
-    }
 }
