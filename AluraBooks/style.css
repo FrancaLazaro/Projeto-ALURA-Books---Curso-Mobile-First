@@ -16,6 +16,12 @@
     --azul-destaque: #002F52;
 }
 
+* {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
 body {
     background-color: var(--cor-de-fundo);
+
 }

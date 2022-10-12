@@ -12,65 +12,75 @@
 <body>
     <header class="cabecalho">
 
-        <div class="cabecalho__container cabecalho__container--logo">
-
-            <div class="menu--hamburger">
-
-                <input type="checkbox" id="checkbox--menu">
-                <label for="checkbox--menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                
-                <ul class="lista-categorias">
-                    <li class="lista-categorias__titulo">
-                        Categorias
-                    </li>
-                    <li class="lista-categorias__item">
-                        <a href="#" class="lista-categorias__link">programação</a>
-                    </li>
-                    <li class="lista-categorias__item">
-                        <a href="#" class="lista-categorias__link">front-end</a>
-                    </li>
-                    <li class="lista-categorias__item">
-                        <a href="#" class="lista-categorias__link">infraestrutura</a>
-                    </li>
-                    <li class="lista-categorias__item">
-                        <a href="#" class="lista-categorias__link">busines</a>
-                    </li>
-                    <li class="lista-categorias__item">
-                        <a href="#" class="lista-categorias__link">design & ux</a>
-                    </li>
-                </ul>
-            </div>
-
-            <img class="cabecalho__logo" src="img/Logo.svg" alt="LOGO">
-
-            <!-- Tablet e desktop -->
-            <h1 class="titulo"><b class="titulo__negrito">Alura</b>Books</h1>
-            <!-- Tablet e desktop -->
-
-        </div>
-
-        <!-- Tablet e desktop -->
-            <ul class="opções">
-
-                <input type="checkbox" id="checkbox-categorias">
-                <label for="checkbox-categorias">
-                    <li class="opções__item opções__item--categorias" >
-                        Categorias
-                    </li>
-                </label>
-                <li class="opções__item">
-                    <a class="opções__link" href="">Favoritos</a>
+        <div class="menu--hamburger">
+            <input type="checkbox" id="checkbox--menu">
+            <label for="checkbox--menu" class="label__menu--hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="lista-categorias">
+                <li class="lista-categorias__titulo">
+                    Categorias
                 </li>
-                <li class="opções__item">
-                    <a class="opções__link" href="">Minha estante</a>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">programação</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">front-end</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">infraestrutura</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">busines</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">design & ux</a>
                 </li>
             </ul>
-        <!-- Tablet e desktop -->
-        
+        </div>
+
+        <div class="containner--titulo-logo">
+            <img class="cabecalho__logo" src="img/Logo.svg" alt="LOGO">
+            
+            <!-- Tablet e desktop -->
+            <h1 class="cabecalho__titulo"><b class="cabecalho__titulo-negrito">Alura</b>Books</h1>
+            <!-- Tablet e desktop -->
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="checkbox-opcoes" class="checkbox-opcoes">
+            <label for="checkbox-opcoes">
+                <li class="opcoes__item opcoes__item--categorias" >
+                    Categorias
+                </li>
+            </label>
+            <ul class="lista-categorias">
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">programação</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">front-end</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">infraestrutura</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">busines</a>
+                </li>
+                <li class="lista-categorias__item">
+                    <a href="#" class="lista-categorias__link">design & ux</a>
+                </li>
+            </ul>
+            <li>
+                <a href="#" class="opcoes__item">Favoritos</a>
+            </li>
+            <li>
+                <a href="#" class="opcoes__item">Minha estante</a>
+            </li>
+        </ul>
+
         <div class="cabecalho__container cabecalho__container--icone">
             <img class="container__imagem container__imagem--favoritos" src="img/Favoritos.svg" alt="FAVORITOS">
             <img class="container__imagem" src="img/Compras.svg" alt="SACOLA">

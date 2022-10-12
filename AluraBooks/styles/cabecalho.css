@@ -1,21 +1,21 @@
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #FFFFFF;
     position: relative;
     align-items: center;
 }
 
-.cabecalho__container {
+.containner--titulo-logo {
     display: flex;
-    gap: 1em;
 }
 
 .cabecalho__logo {
     width: 40px;
 }
 
-.titulo {
+.cabecalho__titulo {
     display: none;
 }
 
@@ -61,7 +61,7 @@
     display: none;
 }
 
-.titulo {
+.opcoes {
     display: none;
 }
 
@@ -71,8 +71,52 @@
         padding: 0.5em 0;
     }
 
-    .cabecalho__container {
+    .containner--titulo-logo {
+        gap: 1em;
         align-items: center;
+    }
+    
+    .cabecalho__titulo {
+        display: block;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .cabecalho__titulo-negrito {
+        font-family: 'Josefin Sans';
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .opcoes {
+        display: flex;
+        gap: 3em;
+        text-align: center;
+    }
+
+    .checkbox-opcoes {
+        display: none;
+    }
+
+    .opcoes__item {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--azul-destaque);
+        text-decoration: none;
+    }
+
+    .lista-categorias {
+        left: unset;
+        width: auto;
+    }
+
+    .checkbox-opcoes:checked ~ .lista-categorias {
+        display: block;
     }
 
     .cabecalho__container--icone {
@@ -83,26 +127,4 @@
     .container__imagem--favoritos {
         display: none;
     }
-
-    .titulo {
-        display: block;
-        font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    .titulo__negrito {
-        font-family: 'Josefin Sans';
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    .opções {
-        display: flex;
-        gap: 3em;
-    }
-
 }
