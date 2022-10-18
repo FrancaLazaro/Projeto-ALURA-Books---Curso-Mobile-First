@@ -68,3 +68,9 @@
     padding: 1em 0.5em;
 }
 
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 50%;
+        margin: 1.5em auto;
+    }
+}
