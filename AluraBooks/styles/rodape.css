@@ -32,18 +32,51 @@ hr {
         grid-row: 1;
     }
 
+    .rodape__titulo--secao {
+        grid-row: 1;
+        display: inline-block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #858585;
+    }
+
+    .rodape__lista-secao {
+        display: grid;
+        grid-row: 2;
+    }
+
+    .lista-secao__item, .lista-secao__item a{
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #474646;
+        text-decoration: none;
+    }
+
     .rodape__titulo-educacao, .rodape__lista-educacao, .lista-secao__caelum, .lista-secao__casadocodigo {
         grid-column: 2;
-        display: block;
+    }
+
+    .lista-secao__caelum, .lista-secao__casadocodigo {
+        grid-column: 2;
     }
 
     .rodape__titulo-educacaoonline, .rodape__lista-educacaoonline, .lista-secao__alura, .lista-secao__aluraparaempresas {
-        grid-column: 3;
-        display: block;
+        grid-column: 3; 
+    }
+
+    .lista-secao__alura, .lista-secao__aluraparaempresas {
+        grid-column: 2; 
     }
 
     .rodape__titulo-comunidade, .rodape__lista-comunidade, .lista-secao__hipsterspontotech, .lista-secao__scubadev {
         grid-column: 4;
-        display: block;
+    }
+
+    .lista-secao__hipsterspontotech, .lista-secao__scubadev {
+        grid-column: 2;
     }
 }
