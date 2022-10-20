@@ -14,6 +14,10 @@ hr {
     color: var(--azul-destaque);
 }
 
+.rodape__titulo--secao, .rodape__lista-secao, .lista-secao__item {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .rodape {
         display: grid;
@@ -24,5 +28,22 @@ hr {
         font-weight: 500;
         font-size: 24px;
         line-height: 36px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .rodape__titulo-educacao, .rodape__lista-educacao, .lista-secao__caelum, .lista-secao__casadocodigo {
+        grid-column: 2;
+        display: block;
+    }
+
+    .rodape__titulo-educacaoonline, .rodape__lista-educacaoonline, .lista-secao__alura, .lista-secao__aluraparaempresas {
+        grid-column: 3;
+        display: block;
+    }
+
+    .rodape__titulo-comunidade, .rodape__lista-comunidade, .lista-secao__hipsterspontotech, .lista-secao__scubadev {
+        grid-column: 4;
+        display: block;
     }
 }
