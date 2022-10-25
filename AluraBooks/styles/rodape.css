@@ -45,6 +45,9 @@ hr {
     .rodape__lista-secao {
         display: grid;
         grid-row: 2;
+        align-items: center;
+        justify-content: start;
+        gap: 1em;
     }
 
     .lista-secao__item, .lista-secao__item a{
