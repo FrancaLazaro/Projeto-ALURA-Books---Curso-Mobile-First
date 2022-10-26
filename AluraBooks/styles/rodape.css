@@ -63,11 +63,7 @@ hr {
         grid-column: 2;
     }
 
-    .lista-secao__caelum, .lista-secao__casadocodigo {
-        grid-column: 2;
-    }
-
-    .rodape__titulo-educacaoonline, .rodape__lista-educacaoonline, .lista-secao__alura, .lista-secao__aluraparaempresas {
+    .rodape__titulo-educacaoonline, .rodape__lista-educacaoonline {
         grid-column: 3; 
     }
 
@@ -75,7 +71,7 @@ hr {
         grid-column: 2; 
     }
 
-    .rodape__titulo-comunidade, .rodape__lista-comunidade, .lista-secao__hipsterspontotech, .lista-secao__scubadev {
+    .rodape__titulo-comunidade, .rodape__lista-comunidade {
         grid-column: 4;
     }
 
