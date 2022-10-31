@@ -44,3 +44,26 @@
         display: inline-block;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .banner-bottom__titulo {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .banner-bottom {
+        padding: 1.5em 26em;
+    }
+
+    .banner-bottom__titulo {
+        padding: 1em;
+    }
+
+    .lista__topico {
+        margin: 2.1em 0.6em;
+    }
+
+    .banner-lista {
+        padding: 0 0 2em 0;
+    }
+}
