@@ -62,3 +62,17 @@
         background-position: 4em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .container-busca {
+        width: 30%;
+    }
+
+    .banner-topo__texto {
+        margin-bottom: 2em;
+    }
+
+    .banner-topo__titulo {
+        line-height: 34px;
+    }
+}
