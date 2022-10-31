@@ -22,9 +22,6 @@
     font-size: 16px;
     line-height: 24px;
     color: var(--amarelo-destaque);
-}
-
-.card-container__estrela {
     padding-bottom: 0.5em;
 }
 
@@ -72,5 +69,23 @@
     .card {
         width: 50%;
         margin: 1.5em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .card {
+        width: 35%;
+        margin: 5em 0 0 0;
+    }
+
+    .card-container__titulo, .card-container__estrela {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .card-container__texto {
+        font-size: 16px;
+        line-height: 24px;
     }
 }

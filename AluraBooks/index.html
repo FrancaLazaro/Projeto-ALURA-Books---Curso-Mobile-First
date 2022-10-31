@@ -102,77 +102,76 @@
             <p class="banner-topo__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" placeholder="Qual será sua próxima leitura?" class="container-busca">
         </section>
-        <section class="carrossel-lancamento carrossel">
-            <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
-            <div class="swiper">
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro ApacheKafka"></div>
-                  <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Livro Arquitetura"></div>
-                  <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro Javascript"></div>
-                  <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro Nodesj"></div>
-                  <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro Portugol"></div>
-                  <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro Tuning"></div>
+        <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+        <div class="carrossel-container">
+            <section class="carrossel-lancamento carrossel">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro ApacheKafka"></div>
+                      <div class="swiper-slide"><img src="img/Arquitetura.svg" alt="Livro Arquitetura"></div>
+                      <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro Javascript"></div>
+                      <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro Nodesj"></div>
+                      <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro Portugol"></div>
+                      <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro Tuning"></div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+            </section>
+            <section class="card-top card">
+                <div class="card-top-container card-container">
+                    <h3 class="card-top-container__titulo card-container__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="card-top-container__destaque card-container__destaque">Angular 11 e Firebase</h2>
+                    <p class="card-top-container__texto card-container__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="card-icones">
+                        <img class="card-icones__icone card-icones__icone-favoritos" src="img/Favoritos.svg" alt="FAVORITOS">
+                        <img class="card-icones__icone card-icones__icone-compras" src="img/Compras.svg" alt="SACOLA">
+                    </div>
+                    <img class="card-container__imagem" src="img/Angular-Logo.svg" alt="Angular Logo">
+                    <a class="card-container__botao" href="#">Saiba Mais</a>
                 </div>
+            </section>
+        </div>
 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              </div>
-        </section>
-        <section class="card-top card">
-            <div class="card-top-container card-container">
-                <h3 class="card-top-container__titulo card-container__titulo">Talvez você também se interesse por...</h3>
-                <h2 class="card-top-container__destaque card-container__destaque">Angular 11 e Firebase</h2>
-                <p class="card-top-container__texto card-container__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                <div class="card-icones">
-                    <img class="card-icones__icone card-icones__icone-favoritos" src="img/Favoritos.svg" alt="FAVORITOS">
-                    <img class="card-icones__icone card-icones__icone-compras" src="img/Compras.svg" alt="SACOLA">
+        <h2 class="carrossel__titulo">Mais Vendidos</h2>
+        <div class="carrossel-container">
+            <section class="carrossel-mais-vendidos carrossel">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="img/Construct2.svg" alt="Livro Construct 2"></div>
+                      <div class="swiper-slide"><img src="img/Gestão.svg" alt="Livro Gestão de produtos, Startup e Liderança de produtos digitais"></div>
+                      <div class="swiper-slide"><img src="img/Gestão2.svg" alt="Livro Gestão de produtos"></div>
+                      <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro Liderança em design"></div>
+                      <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Livro Métricas ágeis"></div>
+                      <div class="swiper-slide"><img src="img/ReactNative.svg" alt="Livro React Native"></div>
+                    </div>
+                  </div>
+            </section>
+            <section class="card-bottom card">
+                <div class="card-bottom-container card-container">
+                    <div class="card-container-autora">
+                        <p class="card-container__estrela">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                        <h3 class="card-bottom-container__titulo card-container__titulo">Autora do Mês</h3>
+                    </div>
+                    <h2 class="card-bottom-container__destaque card-container__destaque">Juliana Agarikov</h2>
+                    <p class="card-bottom-container__texto card-container__texto"> Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    <div class="card-icones">
+                        <img class="card-icones__icone card-icones__icone-favoritos" src="img/Favoritos.svg" alt="FAVORITOS">
+                        <img class="card-icones__icone card-icones__icone-compras" src="img/Compras.svg" alt="SACOLA">
+                    </div>
+                    <img class="card-container__imagem" src="img/Perfil-escritora 1.svg" alt="Foto da escritora">
+                    <a class="card-container__botao" href="#">Saiba Mais</a>
                 </div>
-                <img class="card-container__imagem" src="img/Angular-Logo.svg" alt="Angular Logo">
-                <a class="card-container__botao" href="#">Saiba Mais</a>
-            </div>
-        </section>
-
-        <section class="carrossel-mais-vendidos carrossel">
-            <h2 class="carrossel__titulo">Mais Vendidos</h2>
-            <div class="swiper">
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="img/Construct2.svg" alt="Livro Construct 2"></div>
-                  <div class="swiper-slide"><img src="img/Gestão.svg" alt="Livro Gestão de produtos, Startup e Liderança de produtos digitais"></div>
-                  <div class="swiper-slide"><img src="img/Gestão2.svg" alt="Livro Gestão de produtos"></div>
-                  <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro Liderança em design"></div>
-                  <div class="swiper-slide"><img src="img/MetricasAgeis.svg" alt="Livro Métricas ágeis"></div>
-                  <div class="swiper-slide"><img src="img/ReactNative.svg" alt="Livro React Native"></div>
-                </div>
-              </div>
-        </section>
-        <section class="card-bottom card">
-            <div class="card-bottom-container card-container">
-                <div class="card-container-autora">
-                    <p class="card-container__estrela">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-                    <h3 class="card-bottom-container__titulo card-container__titulo">Autora do Mês</h3>
-                </div>
-                <h2 class="card-bottom-container__destaque card-container__destaque">Juliana Agarikov</h2>
-                <p class="card-bottom-container__texto card-container__texto"> Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
-                <div class="card-icones">
-                    <img class="card-icones__icone card-icones__icone-favoritos" src="img/Favoritos.svg" alt="FAVORITOS">
-                    <img class="card-icones__icone card-icones__icone-compras" src="img/Compras.svg" alt="SACOLA">
-                </div>
-                <img class="card-container__imagem" src="img/Perfil-escritora 1.svg" alt="Foto da escritora">
-                <a class="card-container__botao" href="#">Saiba Mais</a>
-            </div>
+        </div>
         </section>
         <section class="banner-bottom">
             <h2 class="banner-bottom__titulo">Tópicos visitados recentemente</h2>

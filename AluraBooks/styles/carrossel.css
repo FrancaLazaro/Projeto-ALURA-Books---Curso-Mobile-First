@@ -37,3 +37,23 @@
   }
 
 }
+
+@media screen and (min-width: 1728px) {
+  .carrossel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding: 2em 0 5em 0;
+  }
+
+  .swiper {
+    width: 750px;
+  }
+
+  .swiper-pagination {
+    position: initial;
+    padding: 2em 0;
+  }
+
+}
